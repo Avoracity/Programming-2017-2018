@@ -1,0 +1,9 @@
+#Michael Alvarez
+#October 2017
+#First shell script:  creates directories for project
+
+mkdir projectFiles    
+cd projectFiles  
+mkdir source   
+mkdir data
+mkdir results
