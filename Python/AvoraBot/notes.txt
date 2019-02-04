@@ -1,0 +1,108 @@
+        #look at the [1:] index
+        #empty = #either rock paper or scissor
+        #embed = discord.Embed(title = "You rolled: ", description = empty, color=0x000fff)
+'''
+    elif message.content.upper().startswith('$CAT'):
+        #summon cat image
+        result =
+        embed = discord.Embed(title = "You rolled: ", description = result, color=0x000fff)
+        import random
+
+choice = 'rock'
+Win = {'paper'    : 'rock' ,
+       'scissors' : 'paper',
+       'rock'     : 'scissors'}
+botDecision = random.choice(list(Win))
+
+
+if Win[choice] == botDecision:
+  print("Win")
+elif Win[botDecision] == choice:
+  print("Lose")
+else:
+  print("Tie")
+
+'''
+#tuples are efficient lists with less features
+
+
+
+
+
+
+
+'''
+<@%s>  calls user , pings
+await client.send_message(message.channel, " <#%s> :cookie:" % (userID))
+
+ if message.content.upper().startswith('$SAY'):
+        botSay = message.content.split(" ") #split on space
+        await client.send_message(message.channel, "%s" % (" ".join(botSay[1:]))
+^^^^^^ This format is without the embed.
+^^^^^^ [1:] skips $say in the split list , " ".join , joins the list with a space in between
+
+ 
+ Win = ({rock:paper},{scissors:rock},{paper:scissors})
+ if any(Win) == true:
+    <display win>
+cpp program below--
+include <iostream>
+
+const rps = {
+  rock: 'paper',
+  paper: 'scissors',
+  scissors: 'rock'
+};
+
+function winningHand(shape) {
+  return rps[shape];
+}
+//testing
+['rock', 'paper', 'scissors', 'paper', 'scissors', 'rock'].map(i => `i play: ${i}, bot plays: ${winningHand(i)}`).join('\n');
+
+/* rps is an object but might be easier to understand if it were an array
+just like how you access arrays using integer indices (e.g. 0, 1, 2, 3, etc)
+you access object using keys, in this case, the strings 'rock', 'paper', or 'scissors
+so i made an object with key-value pairs where using the key gives you the hand that beats it (e.g. 'rock' gives you 'paper', etc)(edited)
+cleaner than using something like
+if (hand === 'rock') return 'paper';
+else if (hand === 'paper') return 'scissors'; etc
+*/
+
+you can plug in user's input variable into key
+where key is the same name string aka
+choice = 'rock'
+inventory[choice]
+prints or is 1 because 'rock' has a value of 1
+'rock' in inventory
+//is a true statement , does not need if
+
+elif message.content.upper().startswith('$SHOOT'):
+        botSay = message.content.split(" ") #split on space
+        choice = " ".join(botSay[1:])
+        decisions = ([{'rock':1},{'paper':2},{'scissors':3}])
+        botDecision = random.choice(1, 3)
+        decisions[choice] #number value for key-string
+        Win = ({1:2},{3:1},{2:3})
+        if decisions[choice] and botDecision
+        if any(choice in s for s in decisions): #any() returns true if at least one element is true
+          #you can only throw rock paper scissor
+          #checking string on a lists
+            if botDecision == choice:
+                embed = discord.Embed(title ="Avora threw " + botDecision, description = "%s" % ("Draw!"), color=0x000fff)
+                await client.send_message(message.channel, embed=embed)  
+
+            elif ( botDecision == 'rock' and choice == 'paper') or ( botDecision == 'scissors' and choice == 'rock' ) or ( botDecision == 'paper' and choice == 'scissors' ):
+                embed = discord.Embed(title = "Avora threw " + botDecision, description = "%s" % ("You Win! :fireworks: :lollipop:  :confetti_ball:"), color=0x000fff)
+                await client.send_message(message.channel, embed=embed)   
+
+            else:
+                embed = discord.Embed(title = "Avora threw " + botDecision, description = "%s" % ("Lose.") , color=0x000fff)
+                await client.send_message(message.channel, embed=embed)      
+        else:
+            wrong = 'incorrect choice entered. Please use either "rock","paper", "scissors. " '
+            embed = discord.Embed(title = "", description = wrong, color=0x000fff)
+            await client.send_message(message.channel, embed=embed) 
+
+'''
+

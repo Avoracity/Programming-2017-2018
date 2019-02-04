@@ -1,0 +1,20 @@
+Mindset Configuration
+Step 1: Simplify the problem
+Step 2: picture/draw the process of how the computer might solve the problem
+Step 3:create code
+
+
+---
+
+return closest duplicate strings
+e.g. 
+"aa" return aa
+string s and n 
+a is 0 through the set
+multiple answers , print smallest
+no answer, -1
+
+takes a word , 
+takes the inputs and plugs into index,
+checks if that inputted index letter has any matches
+if theres a match, print the index number of the other or closest
