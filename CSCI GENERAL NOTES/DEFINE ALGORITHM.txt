@@ -1,0 +1,104 @@
+DEPTH FIRST SEARCH
+
+	Graph/Tree traversal algorithm
+		A tree-like structure that searches through each branch , through their leaf nodes, backtracks up and continues searching the others.	
+
+---------------------------------
+
+BREADTH FIRST SEARCH
+	Taking a tree and printing level by level
+
+
+-------------------------------
+the difference between Depth First Search and Breadth First Search
+
+	The order of traversing child nodes
+
+	DEPTH FIRST SEARCH
+		add all nodes into a stack,   take the last child-node and visit all it's children, then put it into the stack, then take the next last child-node and so forth.
+		I.E taking out the last block from a tower of blocks into a pile and divide it repeatedly until no blocks are left.
+		I.Ex2 last element/node into cube, then open its child and so forth
+
+	BREADTH FIRST SEARCH
+		use a cube. add the five-nodes, take the first and add all the children into the cube, and so forth
+		I.E first element/node into cube , then open its child and so forth
+
+revisit this information for it includes a basic understanding of what stacks are.
+
+-------------------------------
+STACKS
+
+
+-------------------------------
+HASH TABLE/STATEMENTS
+
+given a matrix
+
+you have to keep track of revisited numbers in matrix
+such that you don't have to revisit the coordinates when backtracking
+I.E keep score of values you've already computed   Dynamic Programming
+
+can use arrays
+
+-------------------------------
+MANIPULATE MULTIPLE POINTERS
+
+manipulate multiplate pointers,  traversing variables/list left to right and vice versa
+
+examples: find the longest palendromic substring in a string
+palendrome : a string that is the same written forward and backwards
+written optimally : traverse through string, for every letter you start with two pointers that expand outwards to see if the string is a palendrome. 
+
+
+-------------------------------
+REVERSE LINKED LISTS
+
+the alternative is determining if there are duplicates in the linked list
+have to use 3 different pointers
+
+-------------------------------
+SORTING FUNDAMENTALS
+
+quick sort
+merge sort
+keep sort
+insertion sort
+
+faster than bubble sorting ^
+
+space-time complexity, nlogn stuff insert here
+
+
+
+-------------------------------
+RECURSIONS
+
+already known
+
+depth first search can also use recursions
+
+-------------------------------
+CONSTRUCTING DATA STRUCTURES
+
+not an algorithm itself, but a know-how
+
+knowing how to capture multiple strings starting with the first
+
+-------------------------------
+BINARY SEARCH
+
+given a sorted list and you want to find an integer
+look at the middle integer. If the integer is smaller or bigger than the number you are seeking you can eliminate the left or right of the list
+
+I.E say , given multiple versions of apps. Want to find the version with multiple crashes
+
+
+The time-space complexity of binary search is log(n)
+in every step you are eliminating half of what you have ( whether it may be greater or smaller half until you reach log(n))
+-------------------------------
+
+
+
+RESOURCES
+
+algoexpert.io/techlead

@@ -1,0 +1,2 @@
+SEPERATING CLASSES INTO DIFFERENT FILES
+	File >> New Class >> uncheck destructors , check under File policy "Header and implementation file shall be in same folder"

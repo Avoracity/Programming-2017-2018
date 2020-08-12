@@ -1,0 +1,50 @@
+/SUBLIME NOTES
+
+CTRL + SHIFT + P : Command to search for all commands necessary. (i.e) "insertcommandhere <type necessity wanted>"
+
+CTRL + SHIFT + T: opens up the terminal in the directory.
+CTRL + ALT + SHIFT + T: opens up the terminal in the redirectory.
+------------------------------------------------
+
+/GENERAL WINDOWS NOTES
+
+CTRL + SHIFT + N : New Folder
+
+CTRL + N 		 : New WindowsExplorerFile.exe Folder
+
+Hold CTRL 		 : can select multiple selected files
+
+------------------------------------------------
+
+/GENERAL WINDOWS EXPLORER NOTES
+
+ALT + <-- :  Backwards in Chrome History
+
+ALT + --> :  Forward in Chrome History
+
+CTRL + ^ :	 Scroll Page Up
+
+CTRL + v :   Scroll Page Down
+
+CTRL + SHIFT + v : Shift sentence down
+
+CTRL + SHIFT + ^ : Shift sentence up
+
+HIGHLIGHT + CTRL + U : Underline text ???
+
+HIGHLIGHT + CTRL + I : Italicize Text ???
+
+------------------------------------------------
+
+View --> Side Bar --> Hide/Open Side Bar  : CTRL + K   OR CTRL + B
+
+------------------------------------------------
+
+/DEFINITIONS
+
+directory                   : a file system catalog structure / folder
+
+subdirectory                : the child directory / commonly referred to as parent and child directory / a directory within a directory / folder within folder
+
+redirectory/root directory  : - the topmost directory / the directory without a parent / the topmost folder
+

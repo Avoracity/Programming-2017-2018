@@ -1,0 +1,120 @@
+TERMINOLOGY MAINLY USED IN c++ / CPP FOLDERS
+
+---------------------------------
+MODULUS  | REMAINDER :
+
+%
+---------------------------------
+
+PRINT LINE FORMATTING
+
+\n      : adds a enter input | blank space
+
+---------------------------------
+FSTREAM | READ/WRITE FILES | INPUT/OUTPUT FILES :
+
+
+#include <fstream>
+/* 
+fstream is a datatype that represents file streaming. 
+it is capable of ofstream and ifstream which can create 
+fstream.
+	ofstream outputs and writes files
+	ifstream inputs and reads files
+
+*/
+
+ifstream var;
+
+var.open("file_name.txt")
+
+-
+endl; writes an empty sentence. Thus, it can only be used for cout/output streams.
+
+---------------------------------
+NAMESPACE
+
+using namespace std;			defines the standard c++ library 
+
+---------------------------------
+DATA TYPES
+
+char        smallest address unit | contain types such as integers, characters etc | 1 byte
+
+--
+
+int        contain types such as integers | 2-4 bytes | ranges from -2^(31) to 2^(31)-1
+
+--
+
+bool	   contain types such as True and False | 
+
+--
+
+double	 | double precision data type | 8 bytes
+--
+float 		can contain e for exponents and decimals | single precision data type | 4 bytes 
+--
+
+long datatype   | used when comparing close to infinitely large numbers
+
+--
+long long datatype | used when comparing close to infinitely large numbers | is 64-bit wide
+--
+
+short datatype    | used when comparing decimal worth of numbers
+
+--
+
+signed datatype typially dealt with data storage | i.e  -128 to +127
+
+--
+
+unsigned datatype     typically dealt with data storage   | can hold only 0 and positive values | ranges from 0 to 2^(32)-1 | i.e 0 to 255
+
+
+--
+void           | non assigned type, can not create variables with void.
+
+
+---------------------------------
+
+HEADER FILE (".h")
+
+all class function prototypes and declerations go here instead of main file.
+
+the header files help when distributing amongst engineers which allows  the usage of functions without tweaking the function itself.
+
+#include "classname.h"   , requires to be included in the main.cpp to use objects of the class.
+
+---------------------------------
+"::"  Binary scope resolution operator.
+
+the .cpp file will be where the functions go.
+"class::functionname()"  refers to the function's body.
+---------------------------------
+vector::push_back():
+
+push_back() function is used to push elements into a vector from the back. The new value is inserted into the vector at the end, after the current last element and the container size is increased by 1.
+
+Input : myvector = {1, 2, 3, 4, 5};
+        myvector.push_back(6);
+Output :1, 2, 3, 4, 5, 6
+
+Input : myvector = {5, 4, 3, 2, 1};
+        myvector.push_back(0);
+Output :5, 4, 3, 2, 1, 0
+
+---------------------------------
+Difference between C , C++, and C#
+
+C is for old and small memory space machines
+
+C++ is the superset of C. (encompasses and more)
+C++ can also manage class types. There is no difference of speed, just introduction of object orientation programming.
+C# is similar to java, works on the .net ecosystem. Very powerful, can create backend, frontend, and ios applications i.e. video games e.g. Unity. Not as fast as c++ because the compiler is done mostly automatic. C# helps developer program fast but C++ makes the program run fast.
+xyz...
+---------------------------------
+filler:
+
+xyz...

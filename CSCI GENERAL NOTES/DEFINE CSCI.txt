@@ -1,0 +1,10 @@
+Requesting from Browser
+
+HTTP requests happen when a web browser sends a "request" to your website's server for information on a webpage. ... The browser requests that your server send over a file containing content associated with that page. This file may contain text, images, or multimedia that exist on your webpage.
+
+
+---------------------------------
+HTTP - (Hyper Text Transfer Protocol)
+it's an protocol used to transfer data over the web, specifically webpage data and uses a server-client model.
+
+protocol : a system of rules.

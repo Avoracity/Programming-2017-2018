@@ -1,0 +1,35 @@
+TERMINOLOGY MAINLY USED IN GIT HUB / FOLDERS.
+
+
+
+
+pull-request: 
+
+A pull request is a method of submitting contributions to an open development project. ... A pull request occurs when a developer asks for changes committed to an external repository to be considered for inclusion in a project's main repository.
+
+---------------------------------
+contributions:
+
+Fork the project & clone locally.
+Create an upstream remote and sync your local copy before you branch.
+Branch for each separate piece of work.
+Do the work, write good commit messages, and read the CONTRIBUTING file if there is one.
+Push to your origin repository.
+Create a new PR in GitHub.
+Respond to any code review feedback.
+
+https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/#summary
+
+---------------------------------
+typo pull request: 
+
+a command from github called git-request-pull.
+It prepares a set of commits to request the owner of another copy to make changes
+
+commit: making permanent change
+
+---------------------------------
+desktop.ini:
+
+The desktop.ini file is a hidden file used to store information about the arrangement of a Windows folder. Essentially, if the layout or settings for a folder are changed, a desktop.ini file is automatically generated to save those changes.
+---------------------------------
